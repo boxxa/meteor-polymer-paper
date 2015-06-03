@@ -1,5 +1,5 @@
-#Meteor-Polymer-Elements
-Polymer Paper Elements for Polymer version 1.0.0
+#Meteor-Polymer-Paper
+Polymer Paper and Iron Elements for Polymer version 1.0.0
 
 ```bash
 meteor add boxxa:polymer-paper

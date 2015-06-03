@@ -2,7 +2,7 @@ Package.describe({
   name: 'boxxa:polymer-paper',
   version: '1.0.0',
   summary: 'Adds Polymer 1.0.0 Paper Elements to Meteor',
-  git: 'https://github.com/boxxa/meteor-polymer-elements.git',
+  git: 'https://github.com/boxxa/meteor-polymer-paper.git',
   documentation: 'README.md'
 });
 
