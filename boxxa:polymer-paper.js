@@ -20,8 +20,8 @@ _.forEach(bowerCommands, function (command) {
 
 	var dir = path.join(path.relative(process.cwd(), process.env.PWD), 'public/bower_components');
 	var localCache = _.values(Bower.list(null, {offline: true, directory: dir}).pkgMeta.dependencies);
-	if (!_.contains(localCache, 'PolymerElements/paper-elements')){
+	if (!_.contains(localCache, ['polymer#^1.0.0', 'PolymerElements/paper-elements'])){
 		console.log('installing polymer-paper-elements');
-		Bower.install(['Polymer/core-elements#^1.0.0', 'PolymerElements/paper-elements'], {save: true}, {directory: dir});
+		Bower.install(['polymer#^1.0.0', 'PolymerElements/paper-elements'], {save: true}, {directory: dir});
 	}
 }
